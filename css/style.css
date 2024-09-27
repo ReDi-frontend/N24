@@ -26,6 +26,18 @@ img{
     height: auto;
 }
 
+.button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 20px;
+    line-height: normal;
+    font-weight: 500;
+    font-style: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 /* CONTAINER */
 .container{
@@ -36,3 +48,83 @@ img{
     margin-right: auto;
     margin-left: auto;
 }
+
+/* SITE HEADER */
+.header {
+}
+
+/* SITE HEADER TOP */
+.header-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f6f6f6;
+}
+.header-top__container {
+    display: flex;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    background-color: #fff;
+    display: flex;
+    padding: 8px 6px;
+    border-radius: 7px;
+    margin-right: 35px;
+}
+.logo:hover{
+    opacity: 0.8;
+}
+.logo:active{
+    opacity: 0.6;
+}
+
+/* CURRENCY RATES */
+.currency-rates {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    list-style: none;
+}
+.currency-rates_item:not(:last-child) {
+    margin-right: 25px;
+}
+.currency-rates_type {
+    color: #2959ce;
+}
+
+/* LANGUAGE TOGGLE */
+.lang-toggle {
+    display: flex;
+    padding: 3px;
+    border-radius: 39px;
+    margin-right: 25px;
+    background-color: #dce6ff;
+}
+.lang-toggle_link {
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #a6a6a6;
+    line-height: 30px;
+    text-align: center;
+}
+.lang-toggle_link__active {
+    background-color: #fff;
+    color: #000;
+}
+.button-primary {
+    background-color: #7296ec;
+    color: #fff;
+}
+.button-primary:hover{
+    opacity: 0.8;
+}
+.button-primary:active{
+    opacity: 0.6;
+}
+/* //SITE HEADER */
