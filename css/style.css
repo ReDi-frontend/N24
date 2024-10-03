@@ -37,6 +37,11 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
+/* OUTLINE STYLES */
+*:focus{
+    outline: 3px dashed #7296ec;
+    outline-offset: 3px;
+}
 
 
 /* CONTAINER */
@@ -94,6 +99,21 @@ img{
 .currency-rates_type {
     color: #2959ce;
 }
+/* GLOBAL SEARCH FORM */
+.global-search-form{
+    margin-right: 25px;
+}
+.global-search-form_input{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    border: none;
+    border-radius: 60px;
+    font-size: 14px;
+    line-height: normal;
+}
+
 
 /* LANGUAGE TOGGLE */
 .lang-toggle {
