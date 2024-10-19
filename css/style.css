@@ -132,8 +132,12 @@ img{
     border-radius: 60px;
     font-size: 14px;
     line-height: normal;
-}
+    background-image: url(../img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    background-position: 15px center;
 
+}
 
 /* LANGUAGE TOGGLE */
 .lang-toggle {
@@ -290,7 +294,10 @@ img{
     border-radius: 10px;
     padding: 25px 70px 25px 25px;
     margin: 60px 75px;
-    background-color: #ffd7ba;
+    background-image: url(../img/notification-cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .notification-cta_text {
     font-size: 20px;
@@ -586,3 +593,67 @@ img{
     object-fit: contain;
 }
 /* //SITE FOOTER */
+
+
+
+
+
+/* CONTACT PAGE */
+.contact-page_title {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+.contact-page-form {
+    width: 696px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-page-form_button {
+    margin-top: 20px;
+    align-self: flex-end;
+}
+/* form */
+.form-groups-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.form-groups-wrapper .form-group {
+    width: calc(50% - 5px);
+    margin-bottom: 0;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 10px;
+}
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.form-field-textarea {
+    min-height: 180px;
+    resize: vertical ;
+}
+/* //CONTACT PAGE */
+
+
+
+/* RETINA BG */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+.notification-cta{
+    background-image: url(../img/notification-cta-bg@2x.jpg);
+}
+}
+/* //RETINA BG */

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контаст N24</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <!-- SITE HEADER -->
+    <header class="header">
+        <!-- SITE HEADER TOP -->
+        <div class="header-top">
+            <div class="container header-top__container">
+
+                <!-- LOGO -->
+                <a class="logo" href="index.html">
+                    <img class="logo_img" src="./img/site_logo.svg" alt="N24 logo" width="264" height="28">
+                </a>
+
+                <!-- CURRENCY RATES -->
+                <ul class="currency-rates">
+                    <li class="currency-rates_item">
+                        <b class="currency-rates_type">$</b>
+                        <span class="currency-rates_value">12 733,87</span>
+                    </li>
+                    <li class="currency-rates_item"></li>
+                        <b class="currency-rates_type">P</b>
+                        <span class="currency-rates_value">137,14</span>
+                    </li>
+                </ul>
+
+                <!-- GLOBAL SEARCH FORM -->
+                <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
+                    <input class="global-search-form_input" type="search" name="search" placeholder="Поиск" required>
+                </form>
+
+                <!-- LANGUAGE TOGGLE -->
+                <div class="lang-toggle">
+                    <a class="lang-toggle_link lang-toggle_link__active" href="index.html">УЗ</a>
+                    <a class="lang-toggle_link" href="index.html/ru">РУ</a>
+                </div>
+
+                <!-- SITE HEADER AUTH -->
+                <a class="button button-primary" href="#">Войти</a>
+            </div>
+        </div>
+         <!-- //SITE HEADER TOP -->
+
+        <div class="container">
+            <!-- SITE NAV -->
+            <nav class="site-nav">
+                <ul class="site-nav_list">
+                    <li class="site-nav_item"><a href="./index.html" class="site-nav_link">Главное</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Интересное</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Экономика</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Политика</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Общество</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Технологии</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Спорт</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Культура</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Происшествия</a></li>
+                    <li class="site-nav_item"><a href="./news-list.html" class="site-nav_link">Наука</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <!-- //SITE HEADER -->
+
+
+    <!-- SITE MAIN -->
+    <main class="site-main">
+        <div class="container">
+            <!-- <h1>Namanganliklar24 - сайт новостей</h1> -->
+
+            <div class="contact-page">
+                <h1 class="contact-page_title">Напишите нам</h1>
+
+                <div class="contact-page-content">
+                    <form class="contact-page-form form" action="https://echo.htmlacademy.ru" method="POST">
+                        <div class="form-groups-wrapper">
+                            <div class="form-group">
+                                <input class="form-field" type="text"  name="name" placeholder="Имя" aria-label="Имя" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-field" type="tel"  name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-field form-field-email" type="email"  name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="message" class="form-field form-field-textarea" placeholder="Текст" aria-label="Текст" required ></textarea>
+                        </div>
+
+                        <button class="button button-primary contact-page-form_button" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- //SITE MAIN -->
+
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+        <div class="container site-footer-container">
+            <div class="site-footer-logo-wrapper">
+                <a class="site-footer-logo" href="index.html">
+                    <img class="site-footer-logo-img" src="./img/site-footer-logo.svg" alt="N24 logo" width="264" height="28">
+                </a>
+            </div>
+
+            <!-- site footer about and links -->
+            <div class="site-footer-about-links">
+                <div class="site-footer-about">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+                </div>
+
+                <div class="site-footer-links-wrapper">
+                    <ul class="site-footer-links-list">
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Информация о сайте</a>
+                        </li>
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Напишите нам</a>
+                        </li>
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Реклама</a>
+                        </li>
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Прислать новость</a>
+                        </li>
+                    </ul>
+
+                    <ul class="site-footer-links-list">
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Использование материалов</a>
+                        </li>
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Темы дня</a>
+                        </li>
+                        <li class="site-footer-links-item">
+                            <a class="site-footer-link" href="#">Наша команда</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="site-footer-line">
+
+            <div class="site-footer-socials">
+                <h3 class="site-footer-socials-title">Наши социальные сети</h3>
+                <ul class="site-footer-socials-list">
+                    <li class="site-footer-socials-item">
+                        <a class="site-footer-social-link" href="#" target="_blank">
+                            <img class="site-footer-social-icon" src="./img/facebook.svg" alt="facebook" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="site-footer-socials-item">
+                        <a class="site-footer-social-link" href="#" target="_blank">
+                            <img class="site-footer-social-icon" src="./img/instagram.svg" alt="instagram" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="site-footer-socials-item">
+                        <a class="site-footer-social-link" href="#" target="_blank">
+                            <img class="site-footer-social-icon" src="./img/telegram.svg" alt="telegram" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="site-footer-socials-item">
+                        <a class="site-footer-social-link" href="#" target="_blank">
+                            <img class="site-footer-social-icon" src="./img/youtube.svg" alt="youtube" width="25" height="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- //SITE FOOTER -->
+
+</body>
+</html>
