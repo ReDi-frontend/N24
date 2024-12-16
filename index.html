@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
     <!-- styles -->
-    <!-- <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="./css/min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/min.css"> -->
 </head>
 <body>
 
@@ -53,7 +53,7 @@
                 </div>
 
                 <!-- SITE HEADER AUTH -->
-                <a class="button button-primary" href="#">Войти</a>
+                <a class="button button-primary" href="contact.html">Войти</a>
             </div>
         </div>
          <!-- //SITE HEADER TOP -->
@@ -201,7 +201,7 @@
             <section class="notification-cta">
                 <div class="notification-cta_text">Хотите быть в курсе свежих новостей?<br>
                 Включите уведомления!</div>
-                <button class="button button-orange" type="button">Включит</button>
+                <button class="button button-orange js-modal-open" type="button">Включит</button>
             </section>
             <!-- //NOTIFICATION - CTA -->
 
@@ -416,5 +416,25 @@
     </footer>
     <!-- //SITE FOOTER -->
 
+
+    <!-- MODALS -->
+    <section class="modal" id="notifications-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <h2 class="visually-hidden">Уведомления</h2>
+                <button class="modal-close js-modal-close" type="button">
+                    <img class="modal-close-icon" src="./img/modal-close.svg" alt="modal-close" width="24" height="24">
+                </button>
+                <p class="modal-lead">Хотите быть в курсе свежих новостей?<br>  Включите уведомления!</p>
+                <div class="modal-buttons">
+                    <a class="button button-orange button-large" href="">Включит</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //MODALS -->
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
